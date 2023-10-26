@@ -1,0 +1,32 @@
+version: "3.6"
+services:
+  mongo:
+    image: mongo:4.4
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: mongoadmin
+      MONGO_INITDB_DATABASE: EmailSubscribeDb
+    ports:
+      - 27017:27017
+  web:
+    build: ./server
+    command: python ./server/manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mongo
+
+  website:
+    container_name: website
+    build: ./website
+    volumes:
+      - './:/app'
+      - '/app/node_modules'
+    ports:
+      - 3000:3000
+    stdin_open: true
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    command: npm start

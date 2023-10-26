@@ -1,0 +1,231 @@
+{
+	"info": {
+		"_postman_id": "754a42a0-0d80-4c37-906a-b4ee943242b9",
+		"name": "auth",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"user\",\n    \"password\": \"pass\"\n}"
+				},
+				"url": {
+					"raw": "http://13.232.5.49:8000/auth/login",
+					"protocol": "http",
+					"host": [
+						"13",
+						"232",
+						"5",
+						"49"
+					],
+					"port": "8000",
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Refresh",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"refresh\": \"token\"\n}"
+				},
+				"url": {
+					"raw": "http://13.232.5.49:8000/auth/login/refresh",
+					"protocol": "http",
+					"host": [
+						"13",
+						"232",
+						"5",
+						"49"
+					],
+					"port": "8000",
+					"path": [
+						"auth",
+						"login",
+						"refresh"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"username\",\n    \"password\": \"password\",\n    \"password1\": \"password\",\n    \"email\": \"email\",\n    \"first_name\": \"first_name\",\n    \"last_name\": \"last_name\"\n}"
+				},
+				"url": {
+					"raw": "http://13.232.5.49:8000/auth/register",
+					"protocol": "http",
+					"host": [
+						"13",
+						"232",
+						"5",
+						"49"
+					],
+					"port": "8000",
+					"path": [
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Logout",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"refresh_token\" : \"token\"\n}"
+				},
+				"url": {
+					"raw": "http://13.232.5.49:8000/auth/logout",
+					"protocol": "http",
+					"host": [
+						"13",
+						"232",
+						"5",
+						"49"
+					],
+					"port": "8000",
+					"path": [
+						"auth",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LogoutAll",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://13.232.5.49:8000/auth/logout_all",
+					"protocol": "http",
+					"host": [
+						"13",
+						"232",
+						"5",
+						"49"
+					],
+					"port": "8000",
+					"path": [
+						"auth",
+						"logout_all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ChangePassword",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"old_password\": \"pass\",\n    \"password\": \"newpass\",\n    \"password2\": \"newpass\"\n}"
+				},
+				"url": {
+					"raw": "http://13.232.5.49:8000/auth/logout_all",
+					"protocol": "http",
+					"host": [
+						"13",
+						"232",
+						"5",
+						"49"
+					],
+					"port": "8000",
+					"path": [
+						"auth",
+						"logout_all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateProfile",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"username\",\n    \"first_name\": \"fname\",\n    \"last_name\": \"lname\",\n    \"email\": \"email\"\n}"
+				},
+				"url": {
+					"raw": "http://13.232.5.49:8000/auth/logout_all",
+					"protocol": "http",
+					"host": [
+						"13",
+						"232",
+						"5",
+						"49"
+					],
+					"port": "8000",
+					"path": [
+						"auth",
+						"logout_all"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

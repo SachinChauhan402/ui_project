@@ -1,0 +1,1229 @@
+/* ##########################################################################################slide first*/
+
+.growthpartner {
+  color: #ac2e6d;
+  font-size: 28px;
+  margin-left: 38vh;
+  font-weight: 600;
+  margin-top: 2vh;
+}
+
+.hrtaghorizontal {
+  margin-left: 12vh;
+  width: 80vh;
+  border: 1px solid #e7cebc;
+}
+
+.firstheading {
+  font-size: 30px;
+  margin-left: 35vh;
+}
+
+.globalheadingfirst {
+  font-size: 25px;
+  margin-left: 28vh;
+  font-weight: 350;
+  color: #dd9673;
+}
+
+.firstslideimage {
+  height: 83vh;
+  width: 95vh;
+  margin-left: 7vh;
+  margin-top: 8vh;
+}
+.titlecontainer {
+  height: 65vh;
+  width: 110vh;
+  margin-top: 30vh;
+}
+
+.cmpnysymbol {
+  margin-left: 60vh;
+  margin-top: 30vh;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.cmpnysymbolhr {
+  width: 10vh;
+  border: 1px solid #a24c4d;
+  transform: rotate(90deg);
+  margin-left: 67vh;
+  margin-top: -3vh;
+}
+
+.cmpnysymboltext {
+  margin-left: 73vh;
+  margin-top: -4.4vh;
+  font-size: 0.6em;
+  font-weight: 1000;
+}
+
+@media (max-width: 640px) {
+  .incontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;
+  }
+  .titlecontainer {
+    margin-top: -0.9rem;
+  }
+
+  .firstslideimage {
+    height: 44vh;
+    width: 42vh;
+    margin-left: 2vh;
+    margin-top: 5vh;
+    margin-right: 2vh;
+  }
+
+  .firstheading {
+    height: 4vh;
+    font-size: 2vh;
+    margin-top: 12vh;
+  }
+  .globalheadingfirst {
+    font-size: 2vh;
+    margin-top: -1vh;
+  }
+  .hrtaghorizontal {
+    margin-left: 25vh;
+    width: 35vh;
+    margin-top: 0.5vh;
+  }
+
+  .titlecontainer {
+    width: 85vh;
+    margin-left: 2vh;
+  }
+
+  .growthpartner {
+    margin-top: 1vh;
+    width: 34vh;
+    margin-left: 36vh;
+    font-size: 2vh;
+  }
+
+  .cmpnysymbol {
+    margin-left: 46vh;
+    font-size: 1.4vh;
+    margin-top: 12vh;
+  }
+
+  .cmpnysymbolhr {
+    margin-left: 48.9vh;
+    width: 4vh;
+    margin-top: -1vh;
+  }
+
+  .cmpnysymboltext {
+    margin-left: 51.3vh;
+    font-size: 0.5vh;
+    position: absolute;
+    margin-top: -1.5vh;
+  }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+  .incontainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .firstslideimage {
+    height: 45vh;
+    width: 53vh;
+  }
+
+  .firstheading {
+    height: 4vh;
+    font-size: 2vh;
+    margin-top: 15vh;
+  }
+  .globalheadingfirst {
+    font-size: 2vh;
+    margin-top: -1vh;
+  }
+  .hrtaghorizontal {
+    margin-left: 25vh;
+    width: 35vh;
+    margin-top: 0.5vh;
+  }
+
+  .titlecontainer {
+    width: 85vh;
+    margin-left: 2vh;
+  }
+
+  .growthpartner {
+    margin-top: 1vh;
+    width: 17vh;
+    margin-left: 35.5vh;
+  }
+
+  .cmpnysymbol {
+    margin-left: 46vh;
+    font-size: 1.4vh;
+    margin-top: 17vh;
+  }
+
+  .cmpnysymbolhr {
+    margin-left: 48.9vh;
+    width: 4vh;
+    margin-top: -1vh;
+  }
+  .cmpnysymboltext {
+    margin-left: 51.3vh;
+    font-size: 0.6vh;
+    position: absolute;
+    margin-top: -1.7vh;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .incontainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .firstslideimage {
+    height: 49vh;
+    width: 64vh;
+    margin: 3em 0em 2em 2em;
+  }
+
+  .firstheading {
+    height: 4vh;
+    font-size: 2vh;
+    margin-top: 9vh;
+  }
+  .globalheadingfirst {
+    font-size: 2vh;
+    margin-top: -1vh;
+  }
+  .hrtaghorizontal {
+    margin-left: 25vh;
+    width: 35vh;
+    margin-top: 0.5vh;
+  }
+
+  .titlecontainer {
+    width: 85vh;
+    margin-left: 2vh;
+    margin-top: 1rem;
+  }
+
+  .growthpartner {
+    margin-top: 1vh;
+    width: 17vh;
+    margin-left: 35.5vh;
+    font-size: 2vh;
+  }
+
+  .cmpnysymbol {
+    margin-left: 46vh;
+    font-size: 1.4vh;
+    margin-top: 17vh;
+  }
+
+  .cmpnysymbolhr {
+    margin-left: 48.9vh;
+    width: 4vh;
+    margin-top: -1vh;
+  }
+  .cmpnysymboltext {
+    margin-left: 51.3vh;
+    font-size: 0.6vh;
+    position: absolute;
+    margin-top: -1.7vh;
+  }
+}
+
+/* ################################################################################################## slide second */
+
+.leaderships {
+  height: 10vh;
+  width: 150%;
+  display: flex;
+  color: white;
+}
+
+.leaderships img {
+  height: 7vh;
+}
+
+.visibility {
+  height: 10vh;
+  width: 150%;
+  display: flex;
+  color: white;
+}
+
+.visibility img {
+  height: 7vh;
+}
+
+.liveexpert {
+  height: 10vh;
+  width: 150%;
+  display: flex;
+  color: white;
+}
+
+.globalclass {
+  height: 79.9vh;
+  width: 100%;
+  background-color: #ae155d;
+  display: flex;
+}
+
+.titleclass {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+}
+
+.titleclass img {
+  height: 16vh;
+  width: 16vh;
+  margin-top: 4vh;
+}
+
+.liveexpert img {
+  height: 7vh;
+}
+
+.insights {
+  height: 10vh;
+  width: 150%;
+  color: white;
+  display: flex;
+}
+
+.insights img {
+  height: 7vh;
+}
+
+.fontclass {
+  padding: 0.3125rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-left: 2vh;
+}
+
+.righttext {
+  display: "flex";
+  margin-left: 35vh;
+  margin-top: 1vh;
+  font-size: 1.125rem;
+  list-style-type: disc;
+}
+
+.righttextsecond {
+  display: "flex";
+  margin-left: 31.5vh;
+  margin-top: 1vh;
+  font-size: 1.125rem;
+  list-style-type: disc;
+}
+
+.bootcamps img {
+  height: 7vh;
+}
+
+.bootcamps {
+  height: 10vh;
+  width: 150%;
+  color: white;
+  display: flex;
+}
+
+.title {
+  margin-left: 70vh;
+  margin-top: 4vh;
+  font-weight: 1000;
+  font-size: 2.1875rem;
+}
+
+.talent {
+  height: 12vh;
+  width: 150%;
+  color: yellow;
+  display: flex;
+}
+
+.globalfirst {
+  height: 80vh;
+  width: 33%;
+}
+.globalsecond {
+  height: 80vh;
+  width: 68%;
+}
+
+.talent img {
+  height: 7vh;
+  margin-top: 6vh;
+}
+
+.globalsubclass {
+  padding: 2vh;
+  width: 68%;
+}
+
+.hrdotted {
+  border-top: 0.0625rem dashed white;
+  margin-bottom: 1vh;
+  width: 120vh;
+  opacity: 0.4;
+  background-color: transparent;
+}
+
+@media (max-width: 640px) {
+  .slide2 {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+  }
+  .titleclass {
+    height: 16vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+  }
+  .title {
+    margin-left: 50vw;
+    margin-top: 5vh;
+    font-weight: 800;
+    font-size: 1.1875rem;
+    width: 18vw;
+    /* position: absolute; */
+  }
+  .secondpara {
+    color: #ac4170;
+    margin-left: rem;
+    position: absolute;
+    width: 85vw;
+    margin-top: 0.2rem;
+  }
+  .image {
+    height: 16vh;
+    width: 16vh;
+    margin-top: -4vh;
+    position: absolute;
+  }
+  .globalclass {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .globalfirst {
+    height: 29vh;
+    width: 100vw;
+    background-color: violet;
+  }
+  .globalfirst p {
+    font-size: 0.3125rem;
+    color: white;
+    margin-left: 31vh;
+    margin-top: 1vh;
+    width: 45vh;
+  }
+
+  .spanprogram {
+    margin-left: -3rem;
+  }
+}
+
+/* ################################################################################################### third slide*/
+.slidethird {
+  height: 100vh;
+  width: 100%;
+
+  padding: 10px;
+  display: flex;
+}
+
+.Opportunities {
+  height: 17vh;
+  width: 60vh;
+  background-color: #ae155d;
+  margin-top: 5vh;
+  position: absolute;
+  margin-left: 8vh;
+}
+
+.profilecuration {
+  height: 60vh;
+  width: 90vh;
+  border: 2px dashed #ad7b91;
+  margin-top: 25vh;
+  margin-left: 18vh;
+  z-index: 1;
+  border-radius: 12vh;
+  box-shadow: 5px 16px 1px 16px #fdcbfe;
+}
+
+.flightpic {
+  height: 15vh;
+  width: 98vh;
+  margin-top: 1vh;
+  margin-left: -10vh;
+}
+
+.profilecuration img {
+  height: 9vh;
+  width: 9vh;
+  margin-left: 5vh;
+  margin-top: 6vh;
+}
+
+.liclass {
+  margin-left: 5vh;
+}
+
+.slidefourth {
+  height: 100vh;
+  width: 100%;
+
+  margin-top: 8vh;
+  display: flex;
+  padding: 1vh;
+}
+
+.visibilitycontainer {
+  height: 17vh;
+  width: 60vh;
+  background-color: #ae155d;
+  margin-top: 3vh;
+  position: absolute;
+  margin-left: 8vh;
+}
+
+.agumenting {
+  height: 45vh;
+  width: 40vh;
+  border-radius: 7vh;
+  margin-left: 10vh;
+  margin-top: 22vh;
+  border: 2px dashed #ad7b91;
+  background-color: white;
+  box-shadow: 12px 14px 1px 0px #fdcbfe;
+}
+.regions {
+  height: 90vh;
+  width: 40vh;
+
+  margin-top: 5vh;
+  margin-left: 1.2vh;
+  background-color: #ae155d;
+}
+.reach {
+  height: 45vh;
+  width: 40vh;
+  border-radius: 7vh;
+  margin-left: 1vh;
+  margin-top: 39vh;
+  border: 2px dashed #ad7b91;
+  background-color: white;
+  box-shadow: -7px 18px 1px 0px #fdcbfe;
+  position: relative;
+}
+.grow {
+  height: 80vh;
+  width: 60vh;
+  border-radius: 9vh;
+  margin-top: 10vh;
+  margin-left: 2vh;
+  border: 2px dashed #ad7b91;
+  background-color: white;
+  box-shadow: -7px 0px 1px 16px #fdcbfe;
+}
+
+.agumenting img {
+  height: 12vh;
+
+  margin-left: 13vh;
+  margin-top: 5vh;
+}
+
+.reach img {
+  height: 12vh;
+  margin-left: 14vh;
+  margin-top: 4vh;
+}
+
+.innerfirst {
+  height: 25vh;
+  width: 94%;
+
+  margin-left: 2vh;
+}
+
+.innersecond {
+  height: 25vh;
+  width: 94%;
+
+  margin-left: 2vh;
+}
+
+.regions img {
+  height: 8vh;
+  margin-top: 16vh;
+  margin-left: 7vh;
+}
+
+.regionlist li {
+  margin-left: 5vh;
+  color: white;
+  font-weight: 300;
+  font-size: 13px;
+  margin-top: "1.2vh";
+  list-style-type: disc;
+}
+
+/* ######################################################################### Slide 5th */
+
+.insightsfifth {
+  height: 17vh;
+  width: 50vh;
+  background-color: #ae155d;
+}
+
+.insightcontainer {
+  height: 100vh;
+  width: 100%;
+  background-color: #2d2b2e;
+}
+
+.leadershipinsight {
+  height: 58vh;
+  width: 50vh;
+  border-radius: 7vh;
+  margin-left: 10vh;
+  margin-top: 22vh;
+  border: 2px dashed white;
+  margin-top: 8vh;
+}
+
+.sessionseries {
+  height: 58vh;
+  width: 50vh;
+  border-radius: 7vh;
+  margin-left: 70vh;
+
+  border: 2px dashed white;
+  margin-top: -58vh;
+}
+
+.micpic {
+  height: 100vh;
+  width: 30%;
+  margin-left: 150vh;
+  margin-top: -88vh;
+}
+
+.micpic img {
+  height: 100vh;
+  margin-top: 5vh;
+}
+
+/* ################################################################################################## Sixth slide */
+
+.sixthslide {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+}
+
+.secondcontainer img {
+  height: 100vh;
+  width: 70%;
+  margin-left: 3%;
+  margin-top: 0vh;
+  position: absolute;
+}
+
+.collaboration {
+  height: 18vh;
+  width: 50vh;
+  background-color: #ae155d;
+  position: absolute;
+}
+
+.bootcampbox {
+  height: 60vh;
+  width: 55vh;
+  border: 2px dashed #ae155d;
+  border-radius: 9vh;
+  margin-left: 3vh;
+  margin-top: 20vh;
+  box-shadow: 12px 18px 0px 0px #fdcbfe;
+}
+
+.indicativeflow {
+  float: inherit;
+  width: 70%;
+  height: 36vh;
+  background-color: white;
+  margin-left: 6.5vh;
+  margin-top: 59vh;
+  position: absolute;
+}
+
+.textclass {
+  margin-left: 48vh;
+  margin-top: 13vh;
+  position: absolute;
+  color: #ae155d;
+  font-weight: 700;
+}
+
+/* #######################################################################################################  slide seven */
+
+.sevenslidecontainer {
+  height: 100vh;
+  width: 100%;
+}
+
+.topbar {
+  width: 100%;
+  height: 20vh;
+  background-color: #ae155d;
+  position: absolute;
+}
+
+.threebox {
+  height: 65vh;
+  width: 43vh;
+  border-radius: 6vh;
+  border: 1px dashed #ae155d;
+  margin-top: 25vh;
+  position: absolute;
+  margin-left: 30vh;
+  box-shadow: 45px 0px 0px 12px #fdcbfe;
+
+  z-index: 1;
+}
+
+.threeboxpara {
+  font-size: 2.1vw;
+  margin-left: 9%;
+  margin-top: 5%;
+  font-weight: 200;
+  color: #ac2e6d;
+}
+
+.threeboxlist {
+  margin-left: 23%;
+  margin-top: 10%;
+  list-style-type: disc;
+  font-size: 110%;
+  font-weight: 330;
+}
+
+.logo {
+  margin-top: 90vh;
+  font-weight: 800;
+  font-size: 12px;
+  color: black;
+  position: absolute;
+  margin-left: 5vh;
+}
+
+.logohr {
+  width: 8vh;
+  border: 1px solid #a24c4d;
+  transform: rotate(90deg);
+  margin-top: 91.6vh;
+  margin-left: 7vh;
+  position: absolute;
+}
+
+.logotext {
+  font-size: 8px;
+  font-weight: 700;
+  margin-top: 88.5vh;
+  margin-left: 12vh;
+  position: absolute;
+}
+
+/* ################################################################################### slide eight */
+
+.slideeight {
+  background-color: #ae155d;
+  width: 100%;
+  height: 100vh;
+}
+
+.eightheadingmain {
+  color: white;
+  margin-left: 10vh;
+  margin-top: 4vh;
+  font-size: 18px;
+  position: absolute;
+  font-weight: 300;
+}
+
+.eightheading {
+  color: white;
+  margin-left: 10vh;
+  margin-top: 7vh;
+  font-size: 35px;
+  position: absolute;
+}
+
+.tables {
+  height: 8%;
+  width: 70%;
+  margin-left: 4.8%;
+  margin-top: 10%;
+  position: absolute;
+}
+
+.columnone {
+  height: 9%;
+  width: 100%;
+  font-size: 18px;
+  display: flex;
+  color: white;
+  padding: 7px;
+  position: absolute;
+  font-weight: 350;
+}
+
+.columntwo {
+  background-color: #ad326b;
+  height: 15%;
+  width: 100%;
+  position: absolute;
+  margin-top: 4%;
+  font-size: 17px;
+  display: flex;
+  color: white;
+  padding: 7px;
+  position: absolute;
+  font-weight: 300;
+}
+
+.columnthree {
+  height: 13%;
+  width: 100%;
+  position: absolute;
+  margin-top: 11%;
+  font-size: 17px;
+  display: flex;
+  color: white;
+  position: absolute;
+  font-weight: 300;
+}
+
+.columnfour {
+  background-color: #ad326b;
+  height: 16%;
+  width: 100%;
+  position: absolute;
+  margin-top: 16.5%;
+  font-size: 17px;
+  display: flex;
+  color: white;
+  position: absolute;
+  font-weight: 300;
+}
+
+.columnfive {
+  height: 13%;
+  width: 100%;
+  position: absolute;
+  margin-top: 24.5%;
+  font-size: 17px;
+  display: flex;
+  color: white;
+  position: absolute;
+  font-weight: 300;
+}
+
+.columnsix {
+  background-color: #ad326b;
+  height: 19%;
+  width: 100%;
+  position: absolute;
+  margin-top: 30.2%;
+  font-size: 17px;
+  display: flex;
+  color: white;
+  position: absolute;
+  font-weight: 300;
+}
+
+.coloumnhr {
+  width: 100%;
+  border: 2px solid #b64b7f;
+  margin-top: 2%;
+}
+.coloumnhrtwo {
+  width: 100%;
+  border: 2px solid #b64b7f;
+  margin-top: 3.7%;
+  position: absolute;
+}
+.coloumnhrthree {
+  width: 100%;
+  border: 2px solid #b64b7f;
+  margin-top: 40% !important;
+  position: absolute;
+}
+
+.eightlogo {
+  font-size: 15px;
+  color: black;
+  margin-left: 3vh;
+  margin-top: 90vh;
+  position: absolute;
+  font-weight: 800;
+}
+
+.eighthr {
+  width: 8vh;
+  border: 1px solid #b64b7f;
+  transform: rotate(90deg);
+  margin-left: 6.2vh;
+  margin-top: 92vh;
+  position: absolute;
+}
+
+/* #################################################################################################slide nine */
+
+.custom-negative-margin {
+  margin-left: -20vh;
+}
+
+.stretch-text {
+  letter-spacing: 0.12em;
+}
+
+.custom-width-81 {
+  width: 80.4%;
+}
+
+/* .custom-width-82 {
+  width: 80.4%;
+} */
+
+.margin-top {
+  margin-top: 330px;
+}
+
+.shadow-pink {
+  box-shadow: 12px 9px 0px -1px #fdcbfe;
+}
+
+.custom-margin-top {
+  margin-top: 28%;
+}
+
+.height-52 {
+  height: 53.3%;
+}
+
+.hrcustom {
+  margin-top: 27%;
+}
+
+.custom-font {
+  font-size: 0.4rem;
+}
+
+/* ########################################################################################## */
+
+.margin-left-ten {
+  margin-left: 70%;
+}
+
+.anchor-margin-left {
+  margin-left: 60%;
+}
+
+.anchortwo-margin-left {
+  margin-left: 58%;
+}
+
+.mt-custom {
+  margin-top: 28%;
+}
+
+.anchorthree-margin-left {
+  margin-left: 61%;
+}
+
+.mt-custom-follow {
+  margin-top: 39%;
+}
+
+.mt-custom-one {
+  margin-top: 30.5%;
+}
+
+.margin-left-45 {
+  margin-left: 11.5%;
+}
+
+.custom-font-1 {
+  font-size: 0.4rem;
+}
+
+.margin-left-75 {
+  margin-left: 70%;
+}
+
+.margin-left-50 {
+  margin-left: 27%;
+}
+
+.anchortwo-margin-40 {
+  margin-left: 48%;
+}
+
+.height-20 {
+  height: 9.72%;
+}
+
+.height-21 {
+  height: 16.7%;
+}
+
+.shadow-xl {
+  box-shadow: 14px 12px 0px 2px #44a4c4;
+}
+
+.mt-custom-45 {
+  margin-top: 44%;
+}
+
+.mt-custom-55 {
+  margin-top: 55%;
+}
+
+.mt-custom-63 {
+  margin-top: 63%;
+}
+
+.radius-15 {
+  border-radius: 17%;
+}
+
+.height-16 {
+  height: 67%;
+}
+
+.shadow-2xl {
+  box-shadow: 15px 6px 0px 5px #44a4c4;
+}
+
+.shadow-2xl-red {
+  box-shadow: 10px 16px 0px 15px #fdcbfe;
+}
+
+.shadow-new-xxl {
+  box-shadow: 5px 2px 0px 15px #fdcbfe;
+}
+
+.shadow-new-sm {
+  box-shadow: -9px 8px 0px 10px #fdcbfe;
+}
+
+.width-55 {
+  width: 51.8%;
+}
+
+.radius-30 {
+  border-radius: 14%;
+}
+
+.shadow-new-lg {
+  box-shadow: 10px 12px 0px 2px #fdcbfe;
+}
+
+.shadow-new-lgg {
+  box-shadow: 10px 12px 0px 2px #44a4c4;
+}
+
+.h-40 {
+  height: 20%;
+}
+
+.height-17 {
+  height: 75%;
+}
+
+.margin-l-40 {
+  margin-left: 38.8%;
+}
+
+.height-23 {
+  height: 110%;
+}
+
+.width-30 {
+  width: 30%;
+}
+
+.ml-custom-80 {
+  margin-left: 72%;
+}
+
+.mt-custom-32 {
+  margin-top: 36.5%;
+}
+
+.mt-custom-31 {
+  margin-top: 37%;
+}
+
+.mt-custom-33 {
+  margin-top: 35.5%;
+}
+
+.h-custom-90 {
+  height: 130%;
+}
+
+.h-custom-34 {
+  height: 124.6%;
+}
+
+.ml-custom-88 {
+  margin-left: 195%;
+}
+
+.height-79 {
+  height: 100%;
+}
+
+.width-36 {
+  width: 125%;
+}
+
+.mt-custom-23 {
+  margin-top: 21%;
+}
+
+.radius-13 {
+  border-radius: 13%;
+}
+
+.radius-custom-50 {
+  border-radius: 50%;
+}
+
+.h-cus-13 {
+  height: 16%;
+}
+
+.w-cus-19 {
+  width: 10%;
+}
+
+.margin-left-51 {
+  margin-left: 30%;
+}
+
+.margin-left-52 {
+  margin-left: 74%;
+}
+
+.height-19 {
+  height: 125%;
+}
+
+.radius-20 {
+  border-radius: 15%;
+}
+
+.anchortwo-margin-41 {
+  margin-left: 53%;
+}
+
+.mt-custom-33 {
+  margin-top: 43%;
+}
+
+.mt-custom-35 {
+  margin-top: 42.5%;
+}
+
+.mt-custom-34 {
+  margin-top: 44%;
+}
+
+.shadow-9xl {
+  box-shadow: 25px 0px 0px 12px #44a4c4;
+}
+
+.shadow-10xl {
+  box-shadow: 40px 0px 0px 15px #fdcbfe;
+}
+
+.shadow-11xl {
+  box-shadow: 20px 0px 0px 10px #fdcbfe;
+}
+
+.h-table-8 {
+  height: 11%;
+}
+
+.h-table-21 {
+  height: 19%;
+}
+
+.h-table-12 {
+  height: 12%;
+}
+
+.h-table-13 {
+  height: 16%;
+}
+
+.mt-custom-57 {
+  margin-top: 130%;
+}
+
+.ml-custom-78 {
+  margin-left: 76%;
+}
+
+.ml-custom-72 {
+  margin-left: 49%;
+}
+
+.mt-custom-37 {
+  margin-top: 22%;
+}
+
+.ml-custom-79 {
+  margin-left: 59%;
+}
+
+.xxs-font {
+  font-size: 0.6rem;
+}
+
+.mcus-26 {
+  margin-top: 40rem;
+}
+
+.border-dotted-dashed {
+  border: 2px solid transparent; /* Set the border width and style */
+  background-image: repeating-linear-gradient(
+    to right,
+    transparent,
+    transparent 2px,
+    black 2px,
+    black 4px
+  );
+  background-clip: content-box;
+}

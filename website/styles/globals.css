@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import './carousel.css';
+@import './styles.css';
+
+html {
+    scroll-behavior: smooth;
+}

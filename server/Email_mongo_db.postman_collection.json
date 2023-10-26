@@ -1,0 +1,115 @@
+{
+	"id": "a4c3a6d9-7dcf-4742-8aba-165b451c754f",
+	"name": "Email_mongo_db",
+	"description": null,
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"e297c404-4143-4585-b85c-26bde97ce857",
+		"281b4430-0a09-4ddc-a592-ea4ac584b827",
+		"71109be5-5333-44fb-b9b3-356883c9e324",
+		"18d2392a-077f-41e4-bbf5-67a392bb4a4a"
+	],
+	"folders_order": [],
+	"protocolProfileBehavior": {},
+	"folders": [],
+	"requests": [
+		{
+			"id": "18d2392a-077f-41e4-bbf5-67a392bb4a4a",
+			"name": "Email Csv by id",
+			"url": "http://192.168.0.190:9090/api/v1/email_subscribers_csv/1",
+			"description": "",
+			"data": [
+				{
+					"key": "email_id",
+					"value": "test12@gmail.com1",
+					"type": "text"
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "281b4430-0a09-4ddc-a592-ea4ac584b827",
+			"name": "Post",
+			"url": "localhost:8080/api/v1/email_subscribers",
+			"description": null,
+			"data": [
+				{
+					"key": "email_id",
+					"value": "test1@gmail.com1",
+					"type": "text"
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "71109be5-5333-44fb-b9b3-356883c9e324",
+			"name": "All Email Csv",
+			"url": "http://192.168.0.190:9090/api/v1/email_subscribers_csv",
+			"description": "",
+			"data": [
+				{
+					"key": "email_id",
+					"value": "test12@gmail.com1",
+					"type": "text"
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "e297c404-4143-4585-b85c-26bde97ce857",
+			"name": "Get",
+			"url": "localhost:8080/api/v1/email_subscribers",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		}
+	]
+}

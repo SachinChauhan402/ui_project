@@ -1,0 +1,30 @@
+{
+  "name": "website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ap.cx/react-fullpage": "^0.3.0",
+    "axios": "^0.22.0",
+    "locomotive-scroll": "^4.1.4",
+    "next": "^11.1.2",
+    "react": "17.0.2",
+    "react-csv": "^2.0.3",
+    "react-device-detect": "^2.1.2",
+    "react-dom": "17.0.2",
+    "react-multi-carousel": "^2.6.5",
+    "react-scroll": "^1.8.9"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "postcss": "^8.3.9",
+    "tailwindcss": "^2.2.16"
+  }
+}
